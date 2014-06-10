@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		C3382C7E1944BF7700B6D1E0 /* wwdcdownloader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wwdcdownloader; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3382C811944BF7700B6D1E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C3382C881944C5EC00B6D1E0 /* testdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testdata.json; sourceTree = "<group>"; };
+		C3382C891945CD8E00B6D1E0 /* testdata2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testdata2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				C3382C811944BF7700B6D1E0 /* main.swift */,
+				C3382C881944C5EC00B6D1E0 /* testdata.json */,
+				C3382C891945CD8E00B6D1E0 /* testdata2.json */,
 			);
 			path = wwdcdownloader;
 			sourceTree = "<group>";
@@ -203,6 +207,7 @@
 		C3382C861944BF7700B6D1E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -210,6 +215,7 @@
 		C3382C871944BF7700B6D1E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
